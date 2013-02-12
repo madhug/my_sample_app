@@ -16,7 +16,7 @@
             path = new Path();
             path.strokeColor = 'black';
             path.add(event.point);
-        }
+         }
 
         tool1 = new Tool();
         tool1.onMouseDown = onMouseDown;
