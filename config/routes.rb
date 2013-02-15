@@ -1,4 +1,8 @@
 SampleApp::Application.routes.draw do
+
+  match "/static_pages", :to => 'static_pages#circles'
+  root :to => "static_pages#circles"
+
   get "static_pages/home"
 
   get "static_pages/help"
@@ -7,7 +11,7 @@ SampleApp::Application.routes.draw do
 
   get "static_pages/circles"
 
-  # The priority is based upon order of creation:
+    # The priority is based upon order of creation:
   # first created -> highest priority.
 
   # Sample of regular route:

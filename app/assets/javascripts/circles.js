@@ -9,4 +9,3 @@ graph.newEdge(spruce, fir);
 graph.newEdge(tada,spruce);
 graph.newEdge(fir,tada);
 
-$('#my_canvas').springy({ graph: graph });
